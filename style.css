@@ -1,0 +1,63 @@
+:root{
+    --red:rgb(191, 18, 29);
+    --myblack:rgb(24, 44, 64);
+    --mywhite:rgb(245, 235, 224);
+    --acc:rgb(255, 185, 8);
+}
+
+
+
+
+.txt-red{
+    color: var(--red);
+}
+.txt-black{
+    color: var(--myblack);
+}
+
+.txt-mywhite{
+    color: var(--mywhite);
+}
+
+.txt-acc{
+    color: var(--acc);
+}
+
+.nav-custom{
+    background-color: var(--myblack);
+    height: 12vh;
+    box-shadow: 2px 5px 15px 5px rgba(71, 23, 55, 0.76);
+}
+
+.color-scriitenav{
+    color: var(--red);
+}
+
+.nav-link{
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    color: var(--mywhite);
+    transform: scale(1.1);
+    transition: all 0.4s;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.537);
+}
+
+
+
+.nav-link:focus{
+    color: var(--red);
+}
+
+.nav-link:active{
+    color: var(--mywhite)
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.header-custom{
+background-image: url();
+}
